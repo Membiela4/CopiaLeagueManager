@@ -1,0 +1,20 @@
+
+`	java:S112A"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112`"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+
+java:S1186…"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•‘İŸüÿÿÿÿ
+¤
+java:S1186‰"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(íôíıÿÿÿÿ8ëöş¡„1
+[
+java:S1854""@Remove this useless assignment to local variable "currentStage".(ä­ŞŸøÿÿÿÿ
+7
+java:S1116""Remove this empty statement.(ä­ŞŸøÿÿÿÿ
+7
+java:S11162"Remove this empty statement.(ä­ŞŸøÿÿÿÿ
+7
+java:S1116P"Remove this empty statement.(ä­ŞŸøÿÿÿÿ
+7
+java:S1116o"Remove this empty statement.(ä­ŞŸøÿÿÿÿ
+I
+java:S1128"4Remove this unused import 'javafx.stage.StageStyle'.(¶©2

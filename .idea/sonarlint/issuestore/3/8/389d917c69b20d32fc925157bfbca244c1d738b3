@@ -1,0 +1,17 @@
+
+`	java:S112Y"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112‰"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112¬"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112Ú"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+t
+java:S1104C"_Make matchObservableList a static final constant or non-public and provide accessors if needed.(—Ä›L
+œ
+java:S1186_"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(íôíıÿÿÿÿ
+U
+java:S1117’"9Rename "teams" which hides the field declared at line 51.(½½Àïÿÿÿÿÿ
+\
+java:S1854·"@Remove this useless assignment to local variable "currentStage".(ÇôêÇşÿÿÿÿ
+_
+java:S1128"JRemove this unused import 'com.example.leaguemanager2.modelDomain.Player'.(ıÇè
+D
+java:S10683")Remove this unused "teams" private field.(…ıõÔûÿÿÿÿ

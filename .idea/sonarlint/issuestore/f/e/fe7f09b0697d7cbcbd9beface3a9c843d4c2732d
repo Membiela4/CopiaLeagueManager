@@ -1,0 +1,17 @@
+
+`	java:S112a"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112“"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+t
+java:S1104."^Make teamObservableList a static final constant or non-public and provide accessors if needed.(É
+œ
+java:S1186S"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(íôíıÿÿÿÿ
+\
+java:S2147€"ECombine this catch with the one at line 126, which has the same body.(É®£
+f
+java:S1128"JRemove this unused import 'com.example.leaguemanager2.modelDomain.Player'.(ıÇè8íãş¡„1
+[
+java:S1128"9Remove this unused import 'javafx.scene.image.ImageView'.(áÿ®Ãüÿÿÿÿ8íãş¡„1
+S
+java:S1128"1Remove this unused import 'javafx.util.Callback'.(¢œ»²ıÿÿÿÿ8íãş¡„1

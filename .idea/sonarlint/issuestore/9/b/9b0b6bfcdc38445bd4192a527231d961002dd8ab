@@ -1,0 +1,30 @@
+
+^
+java:S1192&"HDefine a constant instead of duplicating this literal "team_id" 3 times.(¾Ç¬³
+h
+java:S1192("MDefine a constant instead of duplicating this literal "abbreviation" 3 times.(”†ıÒıÿÿÿÿ
+`
+java:S1192'"JDefine a constant instead of duplicating this literal "team_name" 3 times.(á·—
+k
+java:S1104"UMake playerdao a static final constant or non-public and provide accessors if needed.(¤–ÚŠ
+E
+java:S1444"/Make this "public static playerdao" field final(¤–ÚŠ
+e
+java:S20954"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ºîÀ±
+e
+java:S2095F"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ãù¼€
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ìì¸Åşÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(›Á‚ÿüÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ğ»ÂÂ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ı¾ÍÏûÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ºóÈ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÚØà
+V	java:S125N"<This block of commented-out lines of code should be removed.(üÛÒÚøÿÿÿÿ
+x
+java:S4087"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ß¿£

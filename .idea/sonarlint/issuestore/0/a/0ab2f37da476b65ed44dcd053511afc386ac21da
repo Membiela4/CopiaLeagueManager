@@ -1,0 +1,24 @@
+
+`	java:S112A"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112X"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+\
+java:S1192L"FDefine a constant instead of duplicating this literal "ERROR" 3 times.(Ù”À
+=
+java:S1905v"'Remove this unnecessary cast to "List".(Œä©³
+N
+java:S1128
+"3Remove this unused import 'javafx.fxml.FXMLLoader'.(À‡ô³úÿÿÿÿ
+F
+java:S1128"0Remove this unused import 'javafx.scene.Parent'.(²ä¡È
+E
+java:S1128"/Remove this unused import 'javafx.scene.Scene'.(Õü²
+M
+java:S1128"2Remove this unused import 'javafx.stage.Modality'.(£†üĞüÿÿÿÿ
+I
+java:S1128"4Remove this unused import 'javafx.stage.StageStyle'.(¶©2
+K
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ
+D
+java:S1068")Remove this unused "match" private field.(ÂˆìÅıÿÿÿÿ
+D
+java:S1068")Remove this unused "teams" private field.(…ıõÔûÿÿÿÿ

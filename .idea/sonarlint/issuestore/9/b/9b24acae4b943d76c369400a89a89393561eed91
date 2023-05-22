@@ -1,0 +1,14 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘€­µ
+y
+java:S4165"cRemove this useless assignment; "teams" already holds the assigned value along all execution paths.(õÞãÏ
+[
+java:S1854"@Remove this useless assignment to local variable "totalMatches".(„÷³Äùÿÿÿÿ
+L
+java:S1481"1Remove this unused "totalMatches" local variable.(„÷³Äùÿÿÿÿ
+D
+java:S5413"")Verify that "remove()" is used correctly.(¯Ö­›üÿÿÿÿ
+E
+java:S1656"/Remove or correct this useless self-assignment.(õÞãÏ
+E
+java:S1068"*Remove this unused "matchs" private field.(èñ¼ïúÿÿÿÿ

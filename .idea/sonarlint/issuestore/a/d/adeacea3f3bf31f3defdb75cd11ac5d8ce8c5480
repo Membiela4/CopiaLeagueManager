@@ -1,0 +1,52 @@
+
+b
+java:S1192,"GDefine a constant instead of duplicating this literal "dorsal" 5 times.(‘±›“ÿÿÿÿÿ
+e
+java:S1192("JDefine a constant instead of duplicating this literal "player_id" 5 times.(Ã–²¸ÿÿÿÿÿ
+a
+java:S1192+"FDefine a constant instead of duplicating this literal "alias" 5 times.(ÎâŠşÿÿÿÿ
+`
+java:S1192*"JDefine a constant instead of duplicating this literal "last_name" 5 times.(¢Ÿ‰¤
+^
+java:S1192-"HDefine a constant instead of duplicating this literal "team_id" 3 times.(ûÅà×
+k	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òõ¡úÿÿÿÿ
+n
+java:S1104"SMake teamDAO a static final constant or non-public and provide accessors if needed.(Íø‰Ğüÿÿÿÿ
+j
+java:S1104"UMake playerdao a static final constant or non-public and provide accessors if needed.(ªĞÓ
+H
+java:S1444"-Make this "public static teamDAO" field final(Íø‰Ğüÿÿÿÿ
+D
+java:S1444"/Make this "public static playerdao" field final(ªĞÓ
+e
+java:S20958"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ºîÀ±
+e
+java:S2095K"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ãù¼€
+j
+java:S2095r"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(äğÃ‹øÿÿÿÿ
+j
+java:S2095_"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(äğÃ‹øÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÍíÏ•
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(çÕˆé
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ü„Ìƒşÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¦Øı·ıÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(™şá
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Âª€ùÿÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(øí¥ºøÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(îÉÑ¹
+W
+java:S1117”";Rename "teamDAO" which hides the field declared at line 26.(¿ùÜùÿÿÿÿ
+W
+java:S1117¤";Rename "teamDAO" which hides the field declared at line 26.(¿ùÜùÿÿÿÿ
+x
+java:S4087´"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ß¿£
+x
+java:S4087¿"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ß¿£

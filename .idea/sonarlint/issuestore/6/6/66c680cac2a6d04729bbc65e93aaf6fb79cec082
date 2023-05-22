@@ -1,0 +1,36 @@
+
+g	java:S112P"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8²³­¢„1
+h	java:S112‹"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¹¢°¢„1
+h	java:S112œ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¥ä°¢„1
+l
+java:S1192."JDefine a constant instead of duplicating this literal "matchweek" 4 times.(«Ğíêûÿÿÿÿ8³³­¢„1
+l
+java:S11920"ODefine a constant instead of duplicating this literal "visitor_result" 4 times.(†¸’8³³­¢„1
+f
+java:S1192,"IDefine a constant instead of duplicating this literal "local_id" 4 times.(½Ú¶È8³³­¢„1
+k
+java:S1192+"IDefine a constant instead of duplicating this literal "match_id" 4 times.(ôˆ‚…ûÿÿÿÿ8³³­¢„1
+h
+java:S1192-"KDefine a constant instead of duplicating this literal "visitor_id" 4 times.(¬ª 8³³­¢„1
+j
+java:S1192/"MDefine a constant instead of duplicating this literal "local_result" 4 times.(şÖËÒ8´³­¢„1
+q
+java:S2095Y"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(äğÃ‹øÿÿÿÿ8Ã³­¢„1
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(æğ¬¡8Æ³­¢„1
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(™Ï»Ş8Æ³­¢„1
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(îå¦¤8Æ³­¢„1
+a
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(­ÜøP8Æ³­¢„1
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(üÇÖö8Æ³­¢„1
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÚÓãˆ8Æ³­¢„1
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Èææ¡8Ç³­¢„1
+f
+java:S1128"JRemove this unused import 'com.example.leaguemanager2.modelDomain.Player'.(ıÇè8Õ³­¢„1
+d
+java:S1128"HRemove this unused import 'com.example.leaguemanager2.modelDomain.Team'.(ŠÔÎL8Õ³­¢„1

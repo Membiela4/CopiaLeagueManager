@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="419.0" prefWidth="478.0" style="-fx-background-color: #122221;" stylesheets="@../styles/table.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.leaguemanager2.controller.MainSceneController">
+   <children>
+      <Pane layoutX="25.0" layoutY="14.0" prefHeight="76.0" prefWidth="90.0" styleClass="sidebar">
+         <children>
+            <Button id="record-sales" fx:id="closeButton" layoutX="24.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleCloseButtonAction" text="X" />
+         </children></Pane>
+      <Pane layoutX="136.0" layoutY="14.0" prefHeight="76.0" prefWidth="317.0" styleClass="sidebar">
+         <children>
+            <TextField alignment="CENTER" editable="false" layoutX="14.0" layoutY="12.0" prefHeight="53.0" prefWidth="268.0" style="-fx-background-color: NONE;" text="MENU PRINCIPAL">
+               <font>
+                  <Font name="MS Gothic" size="27.0" />
+               </font>
+            </TextField>
+         </children>
+      </Pane>
+      <VBox layoutX="25.0" layoutY="114.0" prefHeight="266.0" prefWidth="428.0" style="-fx-background-color: white;">
+         <children>
+            <Pane prefHeight="88.0" prefWidth="452.0" style="-fx-border-color: orange;">
+               <children>
+                  <Pane prefHeight="88.0" prefWidth="152.0">
+                     <children>
+                        <Text fill="#f89100" layoutX="24.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+                           <font>
+                              <Font name="Times New Roman Bold" size="32.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="51.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JUGADORES" wrappingWidth="141.697265625">
+                           <font>
+                              <Font name="Consolas" size="28.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <ToggleButton id="record-sales" fx:id="btnPlayers" layoutX="336.0" layoutY="32.0" mnemonicParsing="false" onAction="#playersScene" text="&gt;">
+                     <cursor>
+                        <Cursor fx:constant="OPEN_HAND" />
+                     </cursor></ToggleButton>
+               </children>
+            </Pane>
+            <Pane prefHeight="88.0" prefWidth="452.0" style="-fx-border-color: orange;">
+               <children>
+                  <Pane prefHeight="88.0" prefWidth="152.0">
+                     <children>
+                        <Text fill="#f89100" layoutX="24.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+                           <font>
+                              <Font name="Times New Roman Bold" size="32.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="51.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EQUIPOS" wrappingWidth="141.697265625">
+                           <font>
+                              <Font name="Consolas" size="28.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <ToggleButton id="record-sales" fx:id="btnTeams" layoutX="335.0" layoutY="23.0" mnemonicParsing="false" onAction="#teamsScene" text="&gt;">
+                     <cursor>
+                        <Cursor fx:constant="OPEN_HAND" />
+                     </cursor></ToggleButton>
+               </children>
+            </Pane>
+            <Pane prefHeight="91.0" prefWidth="428.0" style="-fx-border-color: orange;">
+               <children>
+                  <Pane prefHeight="88.0" prefWidth="152.0">
+                     <children>
+                        <Text fill="#f89100" layoutX="24.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+                           <font>
+                              <Font name="Times New Roman Bold" size="32.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="51.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LIGA" wrappingWidth="141.697265625">
+                           <font>
+                              <Font name="Consolas" size="28.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <ToggleButton id="record-sales" fx:id="leagueViewBtn" layoutX="334.0" layoutY="25.0" mnemonicParsing="false" onAction="#leagueView" text="&gt;">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></ToggleButton>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

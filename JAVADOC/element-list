@@ -1,0 +1,7 @@
+module:com.example.leaguemanager2
+com.example.leaguemanager2
+com.example.leaguemanager2.controller
+com.example.leaguemanager2.dao
+com.example.leaguemanager2.modelDomain
+com.example.leaguemanager2.test
+com.example.leaguemanager2.utils

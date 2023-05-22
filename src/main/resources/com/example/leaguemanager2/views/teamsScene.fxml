@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="516.0" prefWidth="759.0" style="-fx-background-color: black;" stylesheets="@../styles/table.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.leaguemanager2.controller.TeamsSceneController">
+   <children>
+      <TableView fx:id="table" layoutX="211.0" layoutY="100.0" prefHeight="368.0" prefWidth="534.0" styleClass="payload" stylesheets="@../styles/table.css">
+         <columns>
+            <TableColumn fx:id="idColumn" editable="false" prefWidth="89.0" text="Id" />
+            <TableColumn fx:id="teamNameColumn" prefWidth="227.0" text="Nombre" />
+            <TableColumn fx:id="teamAbbColumn" editable="false" prefWidth="124.0" text="Abreviacion" />
+            <TableColumn fx:id="teamIconColumn" editable="false" prefWidth="88.0" text="Escudo" />
+         </columns>
+      </TableView>
+      <Pane layoutX="14.0" layoutY="22.0" prefHeight="440.0" prefWidth="181.0" styleClass="sidebar">
+         <children>
+            <Button id="record-sales" fx:id="addTeamBtn" layoutX="27.0" layoutY="124.0" mnemonicParsing="false" onAction="#addTeam" text="Agregar Equipo" />
+            <Button id="record-sales" fx:id="backBtn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" text="&lt;" />
+            <Button id="record-sales" layoutX="31.0" layoutY="199.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="119.0" text="Editar Equipo" />
+            <Button id="record-sales" fx:id="deleteBtn" layoutX="27.0" layoutY="268.0" mnemonicParsing="false" onAction="#delete" text="Eliminar Equipo" />
+            <Button id="record-sales" fx:id="closeButton" layoutX="115.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleCloseButtonAction" text="X" />
+         </children>
+      </Pane>
+      <Pane layoutX="241.0" layoutY="22.0" prefHeight="50.0" prefWidth="432.0" style=" " styleClass="sidebar">
+         <children>
+            <Text fontSmoothingType="LCD" layoutX="87.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GESTIONAR EQUIPOS" wrappingWidth="330.796875">
+               <font>
+                  <Font name="Gadugi" size="25.0" />
+               </font>
+            </Text>
+         </children></Pane>
+      <ImageView fitHeight="94.0" fitWidth="194.0" layoutX="673.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

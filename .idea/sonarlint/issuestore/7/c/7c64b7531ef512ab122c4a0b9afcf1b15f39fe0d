@@ -1,0 +1,12 @@
+
+`	java:S112D"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+
+java:S1450"dRemove the "loadingFinishedAction" field and declare it as a local variable in the relevant methods.(Ëä—öüÿÿÿÿ
+G
+java:S1602c",Remove useless curly braces around statement(«ğŠéùÿÿÿÿ
+^
+java:S1128"HRemove this unused import 'com.example.leaguemanager2.LeagueManagerApp'.(„ü­»
+K
+java:S1128"5Remove this unused import 'javafx.scene.image.Image'.(‰¿½Ç
+T
+java:S1068"9Remove this unused "loadingFinishedAction" private field.(Ëä—öüÿÿÿÿ

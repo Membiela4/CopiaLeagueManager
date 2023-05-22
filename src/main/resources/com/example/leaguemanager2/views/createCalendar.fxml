@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="427.0" prefWidth="398.0" style="-fx-background-color: #122221;" stylesheets="@../styles/table.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.leaguemanager2.controller.CreateCalendarController">
+
+    <ComboBox fx:id="comboBoxTeams" layoutX="109.0" layoutY="64.0" prefWidth="200" styleClass="sidebar" />
+
+    <Button id="record-sales" layoutX="101.0" layoutY="102.0" onAction="#addTeam" text="Agregar" />
+    <TableView fx:id="tableTeams" layoutX="37.0" layoutY="147.0" prefHeight="256.0" prefWidth="344.0" styleClass="payload">
+        <columns>
+            <TableColumn fx:id="teamNameColumn" prefWidth="129.0" text="Nombre" />
+            <TableColumn fx:id="teamAbbColumn" prefWidth="157.0" text="Abreviacion" />
+        </columns>
+    </TableView>
+   <Text fill="WHITE" layoutX="125.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SELECCIONA EQUIPO">
+      <font>
+         <Font name="Consolas" size="18.0" />
+      </font></Text>
+   <Button id="record-sales" fx:id="closeButton" layoutX="342.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleCloseButtonAction" text="X">
+      <font>
+         <Font name="Candara Light Italic" size="13.0" />
+      </font></Button>
+   <Button id="record-sales" fx:id="addAllTeams" layoutX="220.0" layoutY="102.0" onAction="#addAllTeams" prefHeight="17.0" prefWidth="122.0" text="Agregar todos" />
+
+    </AnchorPane>
